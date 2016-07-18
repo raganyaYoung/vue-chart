@@ -2111,7 +2111,7 @@ module.exports = function(Chart) {
 
 
   // including horizontalBar in the bar file, instead of a file of its own
-  // it extends bar (like pie extends doughnut)
+  // it extends bar (like pie.png extends doughnut.png)
   Chart.defaults.horizontalBar = {
     hover: {
       mode: "label"
@@ -2794,7 +2794,7 @@ module.exports = function(Chart) {
       }
     },
     
-    //gets the max border or hover width to properly scale pie charts
+    //gets the max border or hover width to properly scale pie.png charts
         getMaxBorderWidth: function (elements) {
             var max = 0,
         index = this.index,
@@ -5735,7 +5735,7 @@ module.exports = function() {
 
     if (isNaN(me.aspectRatio) || isFinite(me.aspectRatio) === false) {
       // If the canvas has no size, try and figure out what the aspect ratio will be.
-      // Some charts prefer square canvases (pie, radar, etc). If that is specified, use that
+      // Some charts prefer square canvases (pie.png, radar, etc). If that is specified, use that
       // else use the canvas default ratio of 2
       me.aspectRatio = config.aspectRatio !== undefined ? config.aspectRatio : 2;
     }
@@ -6202,7 +6202,7 @@ module.exports = function(Chart) {
       // Contains hit boxes for each dataset (in dataset order)
       this.legendHitBoxes = [];
 
-      // Are we in doughnut mode which has a different data type
+      // Are we in doughnut.png mode which has a different data type
       this.doughnutMode = false;
     },
 
