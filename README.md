@@ -3,12 +3,14 @@ A simple chart component for vue
 
 ## Installation
 vue-chart for using required vuejs and Chart.js 
+
 [Vue.js](http://vuejs.org)
+
 [Chart.js](http://www.chartjs.org/docs/)
 
 
 ##  Example
-#### line/bar/pie/doughnut chart
+#### line&bar&pie&doughnut chart
 ##### demo
 ![vue line chart] (https://raw.githubusercontent.com/raganyaYoung/vue-chart/master/demo/line.png) 
 ***
